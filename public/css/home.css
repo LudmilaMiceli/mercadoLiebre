@@ -1,0 +1,35 @@
+
+header {
+    background-color: #EAC926;
+}
+
+
+p {
+    font-size: 12px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+.home_header_nav ul li {
+    list-style: none;
+    margin-left: -38px;
+}
+
+.home_header_nav ul li a {
+    text-decoration: none;
+    color: var(--colorGrisOscuro);
+}
