@@ -1,11 +1,51 @@
+/* GENERAL */
 
-header {
-    background-color: #EAC926;
+a {
+    color: black;
+    text-decoration: none;
 }
 
 
+/* HEADER */
+
+
+.header__nav__menu{
+    background-color: #EAC926;
+}
+
+.logo {
+    width: 40%;
+    margin: 20px;
+}
+
+.barraBusq {
+    margin-left: 10px;
+}
+
+input {
+    width: 55%;
+}
+
+.banner img {
+    width : 100%;
+}
+
+.menu {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.menu i {
+    
+    color: whitesmoke;
+    background-color:#0f4ead;
+    padding: 10px;
+    border-radius: 10%;
+}
+
 p {
     font-size: 12px;
+    text-align: center;
 }
 
 h2 {
@@ -26,10 +66,57 @@ h5 {
 
 .home_header_nav ul li {
     list-style: none;
-    margin-left: -38px;
+    margin-left: -35px;
 }
 
 .home_header_nav ul li a {
     text-decoration: none;
-    color: var(--colorGrisOscuro);
+    color: #363636;
+}
+
+
+/* MAIN */
+
+main {
+    background-color: #ebebeb;
+}
+
+
+/* FOOTER */
+
+.footer {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.footer complementos {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer h3 {
+    color: #504f4f;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.footer h5 {
+    margin: 0;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+footer section i {
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding-top: 40px;
+}
+
+.copyright {
+    margin-top: 50px;
+    margin-left: 0;
+    text-align: left;
 }
