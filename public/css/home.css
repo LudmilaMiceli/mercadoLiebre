@@ -74,11 +74,13 @@ h3 {
 
 h4 {
   font-size: 18px;
+  margin: 0;
 }
 
 h5 {
   font-size: 16px;
   color: var(--colorVerde);
+  margin: 0;
 }
 
 /* BODY */
@@ -122,8 +124,7 @@ main .visitas .container-info {
   margin-top: 3px;
   margin-left: 18px;
   padding-top: 3px;
-  height: 80%;
-  line-height: 3px;
+  height: 100%;
 }
 
 .images {
