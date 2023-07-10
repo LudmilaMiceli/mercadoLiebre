@@ -209,26 +209,31 @@ article i {
 /* MEDIA QUERYS */
 
 
-/* TABLET */
+/* DESKTOP */
 
-@media (min-width: 361px) {
+@media (min-width: 769px) {
+
   /* HEADER */
+
+  p {
+    font-size: 16px;
+  }
 
   .home_header_nav {
     height: 70px;
     margin-bottom: 10px;
     display: block;
   }
-  
+
   .home_header_nav ul {
     display: block;
   }
-  
+
   .home_header_nav ul li {
     list-style: none;
     margin-left: -35px;
   }
-  
+
   .home_header_nav ul li a {
     text-decoration: none;
     color: #363636;
@@ -253,11 +258,10 @@ article i {
   }
 
   main .container-info {
+    display: block;
+    height: 50%;
     width: 90%;
-    background-color: #ffffff;
-    margin-left: 38px;
-    height: 170px;
-    margin-bottom: 10px;
+    margin-left: 5%;
   }
 
   h2 {
@@ -283,5 +287,8 @@ article i {
     padding-left: 10px;
     font-size: 20px;
   }
+
+
+
 
 }
