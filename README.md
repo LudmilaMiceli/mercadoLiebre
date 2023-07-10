@@ -6,4 +6,10 @@
 
 [Estilos](https://github.com/LudmilaMiceli/mercadoLiebre/tree/estilos)  
 
-[Diseño Adaptativo Mobile](https://github.com/LudmilaMiceli/mercadoLiebre/tree/adaptativo)
+[Diseño Adaptativo](https://github.com/LudmilaMiceli/mercadoLiebre/tree/adaptativo)  
+
+[Mobile](https://github.com/LudmilaMiceli/mercadoLiebre/tree/mobile)  
+
+[Tablet](https://github.com/LudmilaMiceli/mercadoLiebre/tree/tablet)  
+
+[Desktop](https://github.com/LudmilaMiceli/mercadoLiebre/tree/desktop)
