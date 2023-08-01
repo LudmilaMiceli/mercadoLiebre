@@ -1,0 +1,82 @@
+main {
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.usuario {
+    padding-top: 5%;
+}
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:focus {
+    box-shadow: 0px 0px 5px cadetblue;
+    outline: none;
+}
+
+.btn {
+    margin-top: 5%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+/*  MEDIA QUERIES */
+
+
+
+/* TABLET */
+
+@media (min-width:768px) {
+
+    .usuario {
+        padding-top: 2%;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .password {
+        padding-top: 2%;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .login .btn {
+        text-align: center;
+    }
+
+}
+
+/* DESKTOP */
+
+@media (min-width:1024px) {
+
+    .usuario {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .password {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .login .btn {
+        text-align: center;
+    }
+}
