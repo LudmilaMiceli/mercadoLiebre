@@ -111,3 +111,24 @@ h2 {
     cursor: pointer;
     box-shadow: 2px 1px var(--colorVerde);
 }
+
+
+/* TABLET */
+
+@media (min-width:768px){
+
+    .formulario-registro {
+        width: 90%;
+        font-size: 22px;
+        margin: 0 45px;
+    }
+
+    .btns button[type="reset"]{
+        font-size: 17px;
+    }
+
+    .btns button[type="submit"]{
+        font-size: 17px;
+    }
+    
+}
