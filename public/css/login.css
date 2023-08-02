@@ -117,6 +117,11 @@
          box-shadow: 2px 1px #0f4ead;
          font-size: 15px;
      }
+
+     .form-login .formulario-login .btn button:hover {
+         background-color: #0022AA;
+     }
+
  }
 
  /* DESKTOP */
@@ -130,8 +135,12 @@
      }
 
      .form-login .formulario-login .btn {
-        margin-top: 5%;
-        text-align: center;
-    }
+         margin-top: 5%;
+         text-align: center;
+     }
+
+     .form-login .formulario-login .btn button:hover {
+         background-color: #0022AA;
+     }
 
  }
