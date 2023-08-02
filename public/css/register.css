@@ -1,0 +1,113 @@
+.home {
+    width: 100%;
+    height: 100%;
+}
+
+.form-registro {
+    max-width: 100%;
+    border: 1px solid #cbcbc9;
+    border-radius: 5px;
+    height: 1200px;
+}
+
+h2 {
+    font-size: 28px;
+    color: var(--colorGrisOscuro);
+    text-align: center;
+    padding: 20px;
+}
+
+.formulario-registro {
+    width: 100%;
+    font-size: 22px;
+    margin-left: 3px;
+}
+
+.formulario-registro label {
+    font-size: 24px;
+    padding-left: 5px;
+    font-weight: 600;
+}
+
+.formulario-registro input {
+    width: 98%;
+    margin: 10px 0;
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.formulario-registro input:focus {
+    box-shadow: 0px 0px 5px cadetblue;
+    outline: none;
+}
+
+/* DIV PERFIL */
+
+.formulario-registro .perfil {
+    margin-top: 10px;
+
+}
+
+.formulario-registro .perfil .contenedor-perfil {
+    display: flex;
+    height: 90px;
+}
+
+.formulario-registro .perfil .contenedor-perfil label {
+    font-weight: 300;
+}
+
+.formulario-registro .perfil .contenedor-perfil input {
+    position: relative;
+    left: 50px;
+    bottom: 30px;
+}
+
+
+.formulario-registro .perfil .contenedor-radio {
+    width: 50%;
+    margin: 25px auto;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+
+/* DIV INTERESES */
+
+.formulario-registro .intereses {
+    margin-bottom: 20px;
+}
+
+
+.formulario-registro .intereses .contenedor-check input[type="checkbox"] {
+    width: 10%;
+}
+
+/* BOTONES */
+
+.btns {
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+
+.btns button {
+    width: 40%;
+}
+
+.btns button[type="reset"] {
+    padding: 10px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 1px #f44336;
+}
+
+.btns button[type="submit"] {
+    padding: 10px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 1px var(--colorVerde);
+}

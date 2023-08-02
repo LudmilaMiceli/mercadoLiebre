@@ -65,18 +65,19 @@
 
 
     <!-- MAIN -->
-    <main>
+    <main class="form-registro">
 
-        <h2>Registro</h2>
-        <form action="/" method="POST" class="forms">
+        <h2>Registrate</h2>
+
+        <form action="/" method="POST" class="formulario-registro">
             <div class="nombre">
-                <label for="nombreApellido"></label>
-                <input type="text" name="nombreApellido" id="nombreApellido" placeholder="Nombre y Apellido" required>
+                <label for="nombreApellido">Nombre y Apellido</label>
+                <input type="text" name="nombreApellido" id="nombreApellido" placeholder="Ej.: Camila Morales" required>
             </div>
 
             <div class="usuario">
-                <label for="nombreUsuario"></label>
-                <input type="text" name="Usuario" id="Usuario" placeholder="Nombre de Usuario" required>
+                <label for="nombreUsuario">Nombre de Usuario</label>
+                <input type="text" name="Usuario" id="Usuario" placeholder="Ej.: Cami-Morales" required>
             </div>
 
             <div class="cumple">
@@ -86,14 +87,21 @@
 
             <div class="domicilio">
                 <label for="domicilio">Domicilio:</label>
-                <input type="text" name="domicilio" id="domicilio" placeholder="Domicilio" required>
+                <input type="text" name="domicilio" id="domicilio" placeholder="Av. Libertad 880" required>
             </div>
 
             <div class="perfil">
                 <label for="perfil">Perfil de usuario:</label>
-                <div class="contenedor-radio">
-                    <input type="radio" name="perfil" value="Comprador">Comprador
-                    <input type="radio" name="perfil" value="Vendedor"> Vendedor
+                <div class="contenedor-perfil">
+                    <div class="contenedor-radio">
+                        <label for="comprador"> Comprador </label>
+                        <input type="radio" name="perfil" value="Comprador">
+
+                    </div>
+                    <div class="contenedor-radio">
+                        <label for="vendedor"> Vendedor </label>
+                        <input type="radio" name="perfil" value="Vendedor">
+                    </div>
                 </div>
             </div>
 
@@ -113,19 +121,20 @@
                 <input type="file" name="imagen" id="fotodeperfil" accept=".jpg, .jpeg">
             </div>
 
-            <div class="Password">
+            <div class="password">
                 <label for="password">Contraseña:</label>
                 <input type="password" name="password" id="password" required>
             </div>
 
-            <div class="Password2">
+            <div class="password2">
                 <label for="password2">Confirmar contraseña:</label>
                 <input type="password" name="password2" id="password2" required>
             </div>
+            <div class="btns">
+                <button type="reset">Cancelar</button>
+                <button type="submit">Registrate</button>
 
-            <button type="submit">Registrate</button>
-            <button type="reset">Cancelar</button>
-
+            </div>
         </form>
     </main>
 
